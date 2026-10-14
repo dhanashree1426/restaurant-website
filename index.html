@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- START OF NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container p-3">
+            <a class="navbar-brand" href="#"><i class="bi bi-fork-knife"></i>&nbsp;FORKS & KNIFE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#carouselExample">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Menu">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#specials">SPECIALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END OF NAVBAR -->
+
+    <!--start of Carousel -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+
+            <div class="carousel-item bg1 active">
+                <div class="mycaption">
+                    <h1>Welcome to Our Restaurant</h1>
+                    <p>Enjoy the best food in town!</p>
+                </div>
+            </div>
+
+
+            <div class="carousel-item bg2">
+                <div class="mycaption">
+                    <h1>Special Offers</h1>
+                    <p>Check out our daily specials!</p>
+                </div>
+            </div>
+            <div class="carousel-item bg3">
+                <div class="mycaption">
+                    <h1>Great Taste</h1>
+                    <p>Experience the finest flavors.</p>
+                </div>
+            </div>
+            <div class="carousel-item bg4">
+                <div class="mycaption">
+                    <h1>Delicious Meals</h1>
+                    <p>Try our most popular dishes!</p>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--End of Carousel -->
+
+
+    <!-- About -->
+
+    <!-- MENU SECTION START  -->
+    <section id="Menu" class="Menu py-5">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-md-12 text-center mb-5">
+                    <h2 class="mainheading">Menu</h2>
+                    <p class="subheading">Check out our delicious offerings</p>
+                </div>
+            </div>
+
+
+            <div class="row align-items-center">
+
+                 <div class="col-md-6">
+                    <div class="menu-content">
+                        <p class="menu-intro">
+                            Discover a world of flavors with our carefully curated international menu,
+                            featuring authentic dishes from around the globe prepared with premium
+                            ingredients and culinary expertise.
+                        </p>
+
+                        <ul class="menu-list">
+                            <li><i class="bi bi-fork-knife"></i> Authentic Italian Pasta & Pizza</li>
+                            <li><i class="bi bi-fork-knife"></i> Bold Mexican Tacos & Burritos</li>
+                            <li><i class="bi bi-fork-knife"></i> Flavorful Chinese Noodles & Dim Sum</li>
+                            <li><i class="bi bi-fork-knife"></i> Elegant Japanese Sushi & Ramen</li>
+                            <li><i class="bi bi-fork-knife"></i> Signature Mocktails & Refreshing Drinks</li>
+                        </ul>
+
+                        <p class="menu-text">
+                            From comforting classics to chef-inspired specialties, every dish is
+                            crafted to deliver an unforgettable dining experience.
+                        </p>
+
+                        <a href="#" class="more-menu">Explore Full Menu</a>
+                    </div>
+            </div>
+
+
+            <div class="col-md-6 text-center">
+                <div class="menu-image-box">
+                    <img src="images/other/Menu-card.png" alt="Restaurant Menu" class="img-fluid menu-image">
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <!-- MENU SECTION END -->
+
+    <!-- Special menu Cards -->
+    <div class="text-center my-5">
+        <h2 class="special-heading">SPECIAL</h2>
+        <p class="special-subtitle">Discover our chef's handpicked signature creations</p>
+    </div>
+    <div id="specials" class="row mt-5">
+        <div class="col-md-3 col-sm-6">
+
+            <div class="mycard">
+                <span></span><br>
+                <span class="counter"></span>
+                <p class="cardtitle">Italian cuisine</p>
+                <p>Starting from ₹220-₹350</p>
+                <a href="#">Order Now</a>
+
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="mycard">
+                <span></span><br>
+                <span class="counter"></span>
+                <p class="cardtitle">Mexican cuisine</p>
+                <p>Starting from ₹180 - ₹250</p>
+                <a href="#">Order Now</a>
+
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="mycard">
+                <span></span><br>
+                <span class="counter"></span>
+                <p class="cardtitle">Chinese cuisine</p>
+                <p>Starting from ₹150 - ₹220</p>
+                <a href="#">Order Now</a>
+
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+            <div class="mycard">
+                <span></span><br>
+                <span class="counter"></span>
+                <p class="cardtitle">Japanese cuisine</p>
+                <p>Starting from ₹350 - ₹500</p>
+                <a href="#">Order Now</a>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- END of Special menu Cards -->
+    </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Contact -->
+    <div id="Contact" class="container-fluid">
+        <div class="row p-5 contact">
+            <h3>Contact for Reservations</h3>
+            <p>
+
+            <p>
+                Reserve your table today and enjoy a memorable dining experience with delicious food,
+                warm hospitality, and a cozy atmosphere. Contact us for reservations, special occasions,
+                or any inquiries—we're always happy to serve you.
+            </p>
+
+            <div class="contact-info">
+                <h4><i class="bi bi-telephone-fill"></i>Call Us</h4>
+                <p>+91 98971xxxxx</p>
+
+                <h4><i class="bi bi-envelope"></i>Email Us</h4>
+                <p>forks&knife@gmail.com</p>
+
+                <h4><i class="bi bi-clock"></i>Opening Hours</h4>
+                <p>Monday - Friday: 11:00 AM - 11:00 PM</p>
+                <p>Saturday - Sunday: 10:00 AM - 12:00 AM</p>
+            </div>
+            <p>
+
+        </div>
+    </div>
+    <!-- End ofContact -->
+</body>
+
+</html>
